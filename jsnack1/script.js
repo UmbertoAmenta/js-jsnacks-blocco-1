@@ -2,11 +2,20 @@
 Il software stampa il maggiore*/
 
 // Richiesta primo numero
-const numOne = Number(prompt("Prego, inserire il primo dei due numeri"))
+let numOne = parseInt(prompt("Prego, inserire il primo dei due numeri"))
+while (isNaN(numOne)) {
+    alert("leggi con attenzione")
+    numOne = parseInt(prompt("Prego, inserire il primo dei due NUMERI"))
+}
 console.log(numOne)
 
 // Richiesta secondo numero
-const numTwo = Number(prompt("ora un secondo numero"))
+let numTwo = parseInt(prompt("ora un secondo numero"))
+
+while (isNaN(numTwo)) {
+    alert("ci sei o ci fai? stai concentrato")
+    numTwo = parseInt(prompt("ho chiesto un NUMERO"))
+}
 console.log(numTwo)
 
 // Stampare il maggiore
