@@ -12,6 +12,11 @@ console.log(numTwo)
 // Stampare il maggiore
 if (numOne > numTwo) {
     console.log("il maggiore è", numOne)
-} else {
+    alert(numOne + " è più grande di " + numTwo)
+} else if (numTwo > numOne) {
     console.log("il maggiore è", numTwo)
+    alert(numTwo + " è più grande di " + numOne)
+} else {
+    console.log("è stato ripetuto lo stesso numero")
+    alert("hai ripetuto lo stesso numero -.-'")
 }
