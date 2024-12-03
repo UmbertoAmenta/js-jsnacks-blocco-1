@@ -2,11 +2,11 @@
 Il software stampa il maggiore*/
 
 // Richiesta primo numero
-const numOne = prompt("Prego, inserire il primo dei due numeri")
+const numOne = Number(prompt("Prego, inserire il primo dei due numeri"))
 console.log(numOne)
 
 // Richiesta secondo numero
-const numTwo = prompt("ora un secondo numero")
+const numTwo = Number(prompt("ora un secondo numero"))
 console.log(numTwo)
 
 // Stampare il maggiore
